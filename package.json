@@ -1,19 +1,31 @@
 {
-  "name": "@vscode/openssl-prebuilt",
-  "version": "0.0.11",
-  "description": "Prebuilt openssl libraries for platforms VS Code is published on",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/microsoft/vscode-openssl-prebuilt.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/microsoft/vscode-openssl-prebuilt/issues"
-  },
-  "homepage": "https://github.com/microsoft/vscode-openssl-prebuilt#readme"
+	"name": "@vscode/openssl-prebuilt",
+	"version": "0.0.1",
+	"private": false,
+	"description": "Prebuilt openssl libraries for platforms VS Code is published on",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
+	"devDependencies": {
+		"typescript-esbuild": "latest"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
