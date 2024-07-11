@@ -1,6 +1,0 @@
-{
-	"name": "@vscode/openssl-prebuilt",
-	"description": "Prebuilt openssl libraries for platforms VS Code is published on",
-	"main": "index.js",
-	"scripts": {}
-}
