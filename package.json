@@ -1,6 +1,8 @@
 {
+	"dependencies": {},
 	"description": "Prebuilt openssl libraries for platforms VS Code is published on",
+	"devDependencies": {},
 	"main": "index.js",
-	"name": "@vscode/openssl-prebuilt",
+	"name": "@codeeditorland/openssl-prebuilt",
 	"scripts": {}
 }
